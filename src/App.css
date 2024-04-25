@@ -1,0 +1,48 @@
+.player-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    justify-items: center;
+    gap: 20px;
+}
+
+.player-img {
+    width: 200px;
+    border-radius: 12px;
+}
+.player-info {
+    margin-top: 10px;
+}
+.player-card{
+    background-color: white;
+    display: grid;
+    justify-items: center;
+    width: 250px;
+    padding: 7px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+}
+.player-name {
+    color: rgb(78, 78, 78);
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+.position {
+    font-weight: 600;
+}
+.value {
+    margin-top: 5px;
+    font-weight: 900;
+}
+
+.header {
+    background-color: #0593cf;
+    padding: 30px;
+}
+.header h1{
+    text-align: center;
+    color: white;
+}
